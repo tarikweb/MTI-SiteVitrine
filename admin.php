@@ -12,7 +12,7 @@
 <header>
 </header>
 <section>
- <form>
+ <form method="post" action="cible.php">
 <label>Titre dans le navigateur</label>
 <input name="titre"></input>
 <label>Titre 1</label>
@@ -36,7 +36,7 @@
 <label>couleur slide 3</label>
 <input name="color_slide3"></input>
 
-<button type="submit"></button>
+<input type="submit" value="enregistrer"></button>
 </form>
 
 </section>
