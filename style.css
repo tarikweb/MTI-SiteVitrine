@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: "police";
+    src: url('police.otf');
+}
+body {
+	margin: 0;
+	padding: 0;
+	color:#fff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+	font: normal 90% police,"Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
+	color: black; 
+}
+
+h2 {
+	font-size: 2em;
+	font-weight:bold;
+	color: #4169E1;
+}
+
+a {
+	font-weight:bold;
+	color:#fff;
+}
+#achirac {
+	position: absolute;
+	bottom: 0px;
+	left: 20%;
+	opacity: 1;
+
+}
+.chirac
+{
+	animation-duration: 3s;
+	animation-name: chirac;
+}
+/* Mise en place des différentes parties / slides */
+#slide1, #slide2, #slide3 {
+	height: 1000px;
+}
+#slide2,#slide3 {
+	padding-top:100px;
+	padding-left:100px;
+}
+#slide1 {
+	background:url(elysee.jpg)  0  no-repeat fixed;
+	background-position: bottom;	 
+-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;
+}
+
+#slide2 {
+	background: url(page2.jpg) center 0 no-repeat fixed;
+-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;
+}
+
+#slide3 {
+	background: url(page2.jpg) center 0 no-repeat fixed;
+-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;
+}
+
+
+/* Gestion du contenu */
+.slide_inside {
+	width: 980px;
+}
+
+#slide1  .slide_inside {
+}
+
+#slide2 .slide_inside p {
+	width: 500px;
+	text-align:justify;
+	background-color: rgba(245, 222, 179, 0.7);
+	color: black; 
+}
+#slide3 .slide_inside {
+	display: flex;
+	justify-content: space-around;
+}
+#slide3 .slide_inside iframe{
+}
+
+.textmap{
+	display: flex;
+	flex-direction: column;
+}
