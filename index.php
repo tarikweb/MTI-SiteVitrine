@@ -9,7 +9,9 @@
 </head>
 
 <body>
-
+<?php>
+$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', 'root');
+<?>
 <div id="slide1">
 
 <div class="slide_inside">
